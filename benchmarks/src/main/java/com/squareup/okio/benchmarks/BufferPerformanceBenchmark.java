@@ -40,11 +40,11 @@ import org.openjdk.jmh.annotations.TearDown;
 import org.openjdk.jmh.annotations.Threads;
 import org.openjdk.jmh.annotations.Warmup;
 
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.Okio;
-import okio.Sink;
-import okio.Timeout;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.Okio;
+import org.cocos2dx.okio.Sink;
+import org.cocos2dx.okio.Timeout;
 
 import static java.util.Objects.requireNonNull;
 

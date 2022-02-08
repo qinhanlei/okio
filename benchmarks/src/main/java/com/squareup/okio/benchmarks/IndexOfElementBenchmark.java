@@ -17,8 +17,8 @@ package com.squareup.okio.benchmarks;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-import okio.Buffer;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.ByteString;
 import org.openjdk.jmh.Main;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
